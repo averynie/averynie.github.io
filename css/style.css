@@ -84,6 +84,28 @@ nav a:hover {
   color: #000;
 }
 
+/*Footer Styling*/
+footer {
+    grid-area: footer;
+    font-size: 14px;
+    padding: 20px 0;
+    background-color: rgb(243,224,229); /*lt pink*/
+    border-top: 1px solid #333;
+  }
+  
+  footer p {
+    margin: 0;
+  }
+  
+  footer a {
+    color: rgb(47,57,54) /*drk grey*/
+  }
+  
+  footer a:hover {
+      color: rgb(127,179,233); /*Fallback color*/
+      color: rgba(127,179,233,0.5); /*lt blue*/
+  }
+
 /*Main Styling*/
 
 main {
@@ -231,28 +253,6 @@ iframe {
         width: 100%;
         height: auto;
     }
-}
-
-/*Footer Styling*/
-footer {
-  grid-area: footer;
-  font-size: 14px;
-  padding: 20px 0;
-  background-color: rgb(243,224,229); /*lt pink*/
-  border-top: 1px solid #333;
-}
-
-footer p {
-  margin: 0;
-}
-
-footer a {
-  color: rgb(47,57,54) /*drk grey*/
-}
-
-footer a:hover {
-    color: rgb(127,179,233); /*Fallback color*/
-    color: rgba(127,179,233,0.5); /*lt blue*/
 }
 
 /*Figcaption Sttling*/
