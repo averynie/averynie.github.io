@@ -16,6 +16,7 @@ body {
     grid-template-rows: auto 1fr auto;
     grid-template-areas:
       "header"
+      "nav"
       "main"
       "footer";
 }
@@ -43,7 +44,7 @@ h3 {
 /*Nav Styling*/
 
 nav {
-  display: flex;
+  grid-area: nav;
   justify-content: space-between;
   background-color: #f2f2f2;
   padding: 20px 0;
