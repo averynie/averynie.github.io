@@ -41,8 +41,9 @@ h3 {
 }
 
 /*Nav Styling*/
+
 nav {
-  grid-area: nav;
+  grid-area: main;
   display: flex;
   justify-content: space-between;
   background-color: #f2f2f2;
