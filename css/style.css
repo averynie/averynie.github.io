@@ -61,6 +61,7 @@ nav {
 nav h2 {
   font-size: 24px;
   margin: 0;
+  padding: 0;
 }
 
 nav ul {
@@ -237,7 +238,7 @@ footer {
   grid-area: footer;
   font-size: 14px;
   padding: 20px 0;
-  background-color: rgb(203,152,153); /*dark pink*/
+  background-color: rgb(243,224,229); /*lt pink*/
   border-top: 1px solid #333;
 }
 
