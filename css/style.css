@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;700&family=EB+Garamond:wght@400;600&display=swap');
+
+/*Body styling*/
+body {
+  font-family: 'Crimson Text', 'Times New Roman', Times, serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+  background-color: #fff;
+
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr auto;
+    grid-template-areas:
+      "header"
+      "main"
+      "footer";
+}
+
+/*Header styling*/
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'EB Garamond', 'Times New Roman', Times, serif;
+  font-weight: 600;
+  line-height: 1.2;
+  margin: 0 0 20px;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+h2 {
+  font-size: 32px;
+}
+
+h3 {
+  font-size: 28px;
+}
+
+/*Nav Styling*/
+nav {
+  grid-area: nav;
+  display: flex;
+  justify-content: space-between;
+  background-color: #f2f2f2;
+  padding: 20px 0;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  margin: 0 10px;
+}
+
+nav a {
+  color: #333;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #000;
+}
+
+/*Main Styling*/
+
+main {
+  grid-area: main;
+  padding: 20px 0;
+  max-width: 960px;
+  margin: 0 auto;
+  background-color:#ffffff;
+  border: 1px solid rgb(203,152,153); /*dark pink*/
+  border-radius: 10px;
+}
+
+main h2 {
+    font-size: 32px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: fit-content;
+    padding: 10px;
+    background-color: #ffffff;
+    border: 1px solid rgb(203,152,153); /*dark pink*/
+    border-radius: 10px;
+}
+
+main p {
+    font-size: 16px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: fit-content;
+    padding: 10px;
+    background-color: #ffffff;
+    border: 1px solid rgb(203,152,153); /*dark pink*/
+    border-radius: 10px;
+}
+
+/*Section Styling*/
+section {
+  padding: 20px 0;
+}
+
+section h2 {
+  font-size: 32px;
+}
+
+section p {
+  font-size: 16px;
+}
+
+/*Article Styling*/
+
+article {
+    padding: 20px 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: fit-content;
+    background-color: #ffffff;
+    border: 1px solid rgb(203,152,153); /*dark pink*/
+    border-radius: 10px;
+}
+
+article h2 {
+    font-size: 32px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: fit-content;
+    padding: 10px;
+    background-color: #ffffff;
+    border: 1px solid rgb(203,152,153); /*dark pink*/
+    border-radius: 10px;
+}
+
+article p {
+    font-size: 16px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: fit-content;
+    padding: 10px;
+    background-color: #ffffff;
+    border: 1px solid rgb(203,152,153); /*dark pink*/
+    border-radius: 10px;
+}
+
+article figcaption {
+    font-size: 16px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: fit-content;
+    padding: 10px;
+    background-color: #ffffff;
+    border: 1px solid rgb(203,152,153); /*dark pink*/
+    border-radius: 10px;
+}
+
+/*Link Styling*/
+article a:link {
+    color: rgb(24,77,193); /*blue*/
+}
+
+article a:visited {
+    color: rgb(180,153,222); /*purple*/
+}
+
+article a:active {
+    color: rgb(24,77,193); /*blue*/
+}
+
+article a:hover {
+    color: rgb(127,179,233); /*Fallback color*/
+    color: rgba(127,179,233,0.5); /*lt blue*/
+}
+
+/*Video Styling*/
+
+iframe {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 560px;
+    height: 315px;
+}
+
+@media (max-width: 600px) {
+    iframe {
+        width: 100%;
+        height: auto;
+    }
+}
+
+/*Footer Styling*/
+footer {
+  grid-area: footer;
+  font-size: 14px;
+  padding: 20px 0;
+  background-color: #f2f2f2;
+  border-top: 1px solid #333;
+}
+
+footer p {
+  margin: 0;
+}
+
+footer a {
+  color: rgb(47,57,54) /*drk grey*/
+}
+
+footer a:hover {
+    color: rgb(127,179,233); /*Fallback color*/
+    color: rgba(127,179,233,0.5); /*lt blue*/
+}
+
+/*Figcaption Sttling*/
+
+figcaption, #box {
+    font-size: 14px;
+    font-weight: 100;
+    font-style:italic;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: fit-content;
+    padding: 10px;
+    background-color: #ffffff;
+    border: 1px dotted rgb(203,152,153); /*dark pink*/
+    border-radius: 10px;
+}
