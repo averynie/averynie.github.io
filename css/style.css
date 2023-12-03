@@ -39,6 +39,8 @@ h2 {
 
 h3 {
   font-size: 28px;
+  margin: 20px 0;
+  padding: 10px;
 }
 
 h4 {
@@ -50,7 +52,9 @@ h4 {
 nav {
   grid-area: nav;
   justify-content: space-between;
-  background-color: #f2f2f2;
+  background-color: rgb(203,152,153); /*dark pink*/
+  border-top: 1px solid #333;
+  border-bottom: 1px solid #333;
   padding: 20px 0;
 }
 
@@ -90,7 +94,8 @@ main {
   border-radius: 10px;
 }
 
-main h2 {
+main h2, 
+article h2 {
     font-size: 32px;
     margin-left: auto;
     margin-right: auto;
@@ -110,7 +115,7 @@ main p {
     width: fit-content;
     padding: 10px;
     background-color: #ffffff;
-    border: 1px solid rgb(203,152,153); /*dark pink*/
+    border: none;
     border-radius: 10px;
 }
 
@@ -140,17 +145,6 @@ article {
     border-radius: 10px;
 }
 
-article h2 {
-    font-size: 32px;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-    width: fit-content;
-    padding: 10px;
-    background-color: #ffffff;
-    border: 1px solid rgb(203,152,153); /*dark pink*/
-    border-radius: 10px;
-}
 
 article p {
     font-size: 16px;
@@ -176,7 +170,7 @@ article figcaption {
     border-radius: 10px;
 }
 
-/*Link Styling*/
+/*Article Link Styling*/
 article a:link {
     color: rgb(24,77,193); /*blue*/
 }
@@ -194,8 +188,25 @@ article a:hover {
     color: rgba(127,179,233,0.5); /*lt blue*/
 }
 
-/*Video Styling*/
+/*Nav Link Styling*/
+nav a:link {
+    color: rgb(24,77,193); /*blue*/
+}
 
+nav a:visited {
+    color: rgb(180,153,222); /*purple*/
+}
+
+nav a:active {
+    color: rgb(24,77,193); /*blue*/
+}
+
+nav a:hover {
+    color: rgb(127,179,233); /*Fallback color*/
+    color: rgba(127,179,233,0.5); /*lt blue*/
+}
+
+/*Video Styling*/
 iframe {
     display: block;
     margin-left: auto;
@@ -216,7 +227,7 @@ footer {
   grid-area: footer;
   font-size: 14px;
   padding: 20px 0;
-  background-color: #f2f2f2;
+  background-color: rgb(203,152,153); /*dark pink*/
   border-top: 1px solid #333;
 }
 
