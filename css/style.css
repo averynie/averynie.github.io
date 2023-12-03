@@ -52,7 +52,7 @@ h4 {
 nav {
   grid-area: nav;
   justify-content: space-between;
-  background-color: rgb(203,152,153); /*dark pink*/
+  background-color: rgb(243,224,229); /*lt pink*/
   border-top: 1px solid #333;
   border-bottom: 1px solid #333;
   padding: 20px 0;
@@ -122,10 +122,20 @@ main p {
 /*Section Styling*/
 section {
   padding: 20px 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: fit-content;
+    background-color: #ffffff;
 }
 
 section h2 {
   font-size: 32px;
+  padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: fit-content;
 }
 
 section p {
@@ -154,7 +164,7 @@ article p {
     width: fit-content;
     padding: 10px;
     background-color: #ffffff;
-    border: 1px solid rgb(203,152,153); /*dark pink*/
+    border: none;
     border-radius: 10px;
 }
 
