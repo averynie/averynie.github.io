@@ -58,7 +58,7 @@ nav {
   background-color: rgb(243,224,229); /*lt pink*/
   border-top: 1px solid #333;
   border-bottom: 1px solid #333;
-  padding: 20px 0;
+  padding: 10px 0;
 }
 
 nav h2 {
@@ -94,7 +94,7 @@ nav a:hover {
 footer {
     grid-area: footer;
     font-size: 14px;
-    padding: 20px 0;
+    padding: 10px 0;
     background-color: rgb(243,224,229); /*lt pink*/
     border-top: 1px solid #333;
     border-bottom: 1px solid #333;
