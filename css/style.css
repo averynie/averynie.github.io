@@ -31,6 +31,7 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
   font-size: 40px;
+  text-decoration: underline solid rgb(203,152,153); /*dark pink*/;
 }
 
 h2 {
