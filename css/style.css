@@ -63,7 +63,7 @@ nav {
 
 nav h2 {
   font-size: 24px;
-  margin-left: 8px;
+  margin-left: 5px;
   margin-right: auto;
   display: block;
   width: fit-content;
@@ -111,7 +111,7 @@ footer {
 
   footer p {
     font-size: 16px;
-    margin-left: 8px;
+    margin-left: 5px;
     margin-right: auto;
     display: block;
     width: fit-content;
@@ -211,7 +211,7 @@ article h3 {
 
 article p {
     font-size: 16px;
-    margin-left: auto;
+    margin-left: 5px;
     margin-right: auto;
     display: block;
     width: fit-content;
