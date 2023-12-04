@@ -148,6 +148,7 @@ main h2 {
     background-color: #ffffff;
     border: none;
     border-radius: 10px;
+    text-align: left;
 }
 
 main p {
