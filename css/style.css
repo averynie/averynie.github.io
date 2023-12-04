@@ -110,9 +110,13 @@ footer {
 }
 
   footer p {
-    margin: 0;
-    padding: 0;
-  }
+    font-size: 24px;
+    margin-left: 10px;
+    margin-right: auto;
+    display: block;
+    width: fit-content;
+    padding: 10px;
+    }
   
   footer a {
     color: rgb(47,57,54) /*drk grey*/
