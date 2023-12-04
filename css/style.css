@@ -141,7 +141,7 @@ main {
 
 main h2 {
     font-size: 32px;
-    margin-left: 20px 0;
+    margin-left: 20px;
     margin-right: auto;
     display: block;
     width: fit-content;
