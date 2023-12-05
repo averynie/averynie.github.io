@@ -153,6 +153,7 @@ main h2 {
 }
 
 main p {
+    max-width: 480px;
     font-size: 16px;
     margin-left: auto;
     margin-right: auto;
@@ -184,6 +185,7 @@ section h2 {
 }
 
 section p {
+    max-width: 480px;
   font-size: 16px;
 }
 
@@ -211,6 +213,7 @@ article h3 {
 }
 
 article p {
+    max-width: 480px;
     font-size: 16px;
     margin-left: 5px;
     margin-right: auto;
