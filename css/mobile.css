@@ -18,6 +18,10 @@
         font-size: 36px;
     }
     
+    header span {
+        display: inline;
+    }
+    
     h3 {
         font-size: 32px;
     }
