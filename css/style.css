@@ -167,10 +167,9 @@ main p {
 /*Section Styling*/
 section {
     padding: 20px 0;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 0;
     display: block;
-    width: fit-content;
+    width: auto;
     background-color: #ffffff;
 }
 
@@ -178,9 +177,6 @@ section h2 {
   font-size: 32px;
   padding: 10px;
   margin-left: 5px;
-  margin-right: 0;
-  display: block;
-  width: fit-content;
 }
 
 section p {
@@ -203,7 +199,6 @@ article {
 article h3 {
     font-size: 28px;
     margin-left: 5px;
-    margin-right: 0;
     display: block;
     padding: 8px;
     border: none;
@@ -213,7 +208,6 @@ article h3 {
 article p {
     font-size: 16px;
     margin: 0 auto;
-    margin-right: 0;
     display: block;
     max-width: 576px;
     padding: 10px;
