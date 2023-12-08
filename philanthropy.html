@@ -6,12 +6,20 @@
         <meta name="viewport" content="width=device-width; initial-scale=1;" />
         <link href="css/style.css" rel="stylesheet"/>
         <link href="css/mobile.css" media="screen" rel="stylesheet" />
+        <link rel="stylesheet" href="https://cdn.plyr.io/3.6.12/plyr.css" />
     </head>
 
     <body>
         <header>
             <h1>The Don't Talk-a-Thon</h1>
             <a href="index.html">Return to Home Page</a>
+
+            <script src="https://cdn.plyr.io/3.6.12/plyr.polyfilled.js"></script>
+            <script>
+                 document.addEventListener('DOMContentLoaded', () => {
+            const player = Plyr.setup('.js-plyr');
+        });
+            </script>
         </header>
 
         <nav>
@@ -27,8 +35,10 @@
                 <h2>The Impact of The Don't Talk-a-Thon</h2>
 
                 <figure>
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/RPK3kIfv_C8?si=l5wJ3t0zPwdtLiPq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                    <figcaption>Watch the video above to hear me speak about The Don't Talk-a-Thon!</figcaption>
+                    <figure>
+                        <div class="js-plyr plyr__video-embed" id="player" data-plyr-provider="youtube" data-plyr-embed-id="RPK3kIfv_C8"></div>
+                        <figcaption>Watch the video above to hear me speak about The Don't Talk-a-Thon!</figcaption>
+                    </figure>
                 </figure>
                 <article>
                     <h3>What is The Don't Talk-a-Thon?</h3>
@@ -56,14 +66,17 @@
 
                 <article>
                         <h3>Notable Donors and Spokespersons</h3>
-                        
+
                         <p>I am immensely grateful for the opportunity to work with numerous celebrities who are fighting for a historically overlooked cause.</p>
                         <p>Their support in raising funds and, notably, awareness for ALS research has been critical. Their involvement and dedication have truly made a difference in our efforts.</p>
                         <p>Below, you will find videos from some notable donors and spokespersons, including Ben Stiller, Christine Taylor, Matt Bomer, Hunter Doohan, and Sarah Silverman, who have each played a significant role in advancing our cause.</p>
 
                         <figure>
-                            <iframe src="https://player.vimeo.com/video/534116740?h=cb79036c19&title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
-                            <figcaption>Ben Stiller and Christine Taylor from <a href="https://vimeo.com/projectalsny">Project ALS.</a></figcaption>
+                            <figure>
+                                <div class="js-plyr plyr__video-embed" id="player1" data-plyr-provider="vimeo" data-plyr-embed-id="534116740"></div>
+                                <figcaption>Ben Stiller and Christine Taylor from Project ALS.</figcaption>
+                            </figure>
+                            
                         </figure>
 
                         <figure>
