@@ -14,11 +14,9 @@
             <h1>The Don't Talk-a-Thon</h1>
             <a href="index.html">Return to Home Page</a>
 
-            <script src="https://cdn.plyr.io/3.6.12/plyr.polyfilled.js"></script>
+            <script src="path/to/plyr.js"></script>
             <script>
-                 document.addEventListener('DOMContentLoaded', () => {
-            const player = Plyr.setup('.js-plyr');
-        });
+                const player = new Plyr('#player');
             </script>
         </header>
 
@@ -36,7 +34,14 @@
 
                 <figure>
                     <figure>
-                        <div class="js-plyr plyr__video-embed" id="player" data-plyr-provider="youtube" data-plyr-embed-id="RPK3kIfv_C8"></div>
+                        <div class="plyr__video-embed" id="player">
+                            <iframe
+                                src="https://www.youtube.com/embed/RPK3kIfv_C8?origin=http://yourwebsite.com&amp;iv_load_policy=3&amp;modestbranding=1&amp;playsinline=1&amp;showinfo=0&amp;rel=0&amp;enablejsapi=1"
+                                allowfullscreen
+                                allowtransparency
+                                allow="autoplay">
+                            </iframe>
+                        </div>
                         <figcaption>Watch the video above to hear me speak about The Don't Talk-a-Thon!</figcaption>
                     </figure>
                 </figure>
@@ -73,7 +78,7 @@
 
                         <figure>
                             <figure>
-                                <div class="js-plyr plyr__video-embed" id="player1" data-plyr-provider="vimeo" data-plyr-embed-id="534116740"></div>
+                                <iframe src="https://player.vimeo.com/video/534116740?h=cb79036c19&title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
                                 <figcaption>Ben Stiller and Christine Taylor from Project ALS.</figcaption>
                             </figure>
                             
