@@ -212,7 +212,8 @@ article h3 {
 
 article p {
     font-size: 16px;
-    margin-left: 0 auto;
+    margin-left: 5px;
+    margin-right: auto;
     display: block;
     max-width: 576px;
     padding: 10px;
